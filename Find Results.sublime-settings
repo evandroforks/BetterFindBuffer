@@ -1,5 +1,6 @@
 {
-    "color_scheme": "Packages/BetterFindBuffer/FindResults.hidden-tmTheme",
+    // "color_scheme": "Packages/BetterFindBuffer/FindResults.hidden-tmTheme",
+    "color_scheme": "auto",
     "draw_indent_guides": false,
     "gutter": true,
     "margin": 8,

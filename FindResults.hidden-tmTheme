@@ -190,6 +190,293 @@
             </dict>
         </dict>
 
+        <dict>
+            <key>name</key>
+            <string>Classes, Boolean, Attributes, Units, Link Url</string>
+            <key>scope</key>
+            <string>entity.name.class
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F96A38</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>User-defined constant</string>
+            <key>scope</key>
+            <string>string</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#808080</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Shell Variable with Background</string>
+            <key>scope</key>
+            <string>variable.parameter
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>background</key>
+                <string>#FFF2D9</string>
+                <key>foreground</key>
+                <string>#FF8000</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Deprecated</string>
+            <key>scope</key>
+            <string>invalid.deprecated
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#E0857F</string>
+                <key>foreground</key>
+                <string>#0000ff</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Invalid</string>
+            <key>scope</key>
+            <string>invalid
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#E71A114D</string>
+                <key>foreground</key>
+                <string>#FF0000</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Meta Function</string>
+            <key>scope</key>
+            <string>support.function - meta.preprocessor - support.function.call
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#600000</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>List Items</string>
+            <key>scope</key>
+            <string>meta.paragraph.list
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#034d7b</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Shell Variable with Background</string>
+            <key>scope</key>
+            <string>variable.source
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>background</key>
+                <string>#FFF2D9</string>
+                <key>foreground</key>
+                <string>#FF8000</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Regular expression</string>
+            <key>scope</key>
+            <string>string.regexp
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF0080</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>CSS Property</string>
+            <key>scope</key>
+            <string>support.type
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#8080C0</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Number</string>
+            <key>scope</key>
+            <string>constant.numeric
+                , meta.path.rust
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF8000</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Documentation Comment</string>
+            <key>scope</key>
+            <string>comment.block.documentation
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#248591</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Preprocessor</string>
+            <key>scope</key>
+            <string>meta.preprocessor
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>unbold</string>
+                <key>foreground</key>
+                <string>#804000</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Storage</string>
+            <key>scope</key>
+            <string>storage.modifier
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#8000FF</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Strings, Inherited Class</string>
+            <key>scope</key>
+            <string>constant.other.symbol
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#198844</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Selector</string>
+            <key>scope</key>
+            <string>meta.selector
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#A36AC7</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Bracket Tag</string>
+            <key>scope</key>
+            <string>brackethighlighter.tag
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#66CCCC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Curly</string>
+            <key>scope</key>
+            <string>brackethighlighter.curly
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#CC99CC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bracket Quote</string>
+            <key>scope</key>
+            <string>brackethighlighter.quote
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#99CC99</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>Punctuation</string>
+            <key>scope</key>
+            <string>markup.list
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#373b41</string>
+            </dict>
+        </dict>
+
+        <dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning
+            </string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict>
+
     </array>
 </dict>
 </plist>
